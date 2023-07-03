@@ -1,0 +1,4 @@
+azure-functions==1.12.0
+psutil==5.9.4
+opencv-python
+azure-storage-blob

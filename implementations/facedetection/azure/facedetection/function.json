@@ -1,0 +1,20 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "inputs/{name}",
+      "connection": "MyStorageAccountAppSetting"
+    },
+    {
+      "name": "outblob",
+      "type": "blob",
+      "dataType": "binary",
+      "path": "outputs/{rand-guid}.jpg",
+      "connection": "MyStorageAccountAppSetting",
+      "direction": "out"
+    }
+  ]
+}

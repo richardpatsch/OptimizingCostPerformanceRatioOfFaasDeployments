@@ -1,0 +1,25 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": ["get", "post"]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
+      "name": "outblob",
+      "type": "blob",
+      "dataType": "binary",
+      "path": "outputs/past_transformation.jpg",
+      "connection": "MyStorageAccountAppSetting",
+      "direction": "out"
+    }
+  ]
+}
