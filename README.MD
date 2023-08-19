@@ -25,6 +25,7 @@ All measured examples are in the implementations example:
 
 2. fibonacci
    generates the nth number of the Fibonacci sequence.
+   As of now this example did not make it into the paper due to page constraints.
 
 3. image resizing
    resizes an image to a width of 100px. height is scaled down proportionally.
